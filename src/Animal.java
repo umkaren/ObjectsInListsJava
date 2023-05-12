@@ -13,7 +13,6 @@ public class Animal {
         return this.dogOrNot;
     }
 
-    @Override
     public String toString() {
         return getName() + " is a dog = " + dogOrNot();
     }

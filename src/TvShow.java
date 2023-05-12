@@ -18,7 +18,6 @@ public class TvShow {
         return this.genre;
     }
 
-    @Override
     public String toString() {
         return ("The name of the show is " + getName() + " with " + getEpisodes() + " episodes. The genre is " + getGenre());
     }
