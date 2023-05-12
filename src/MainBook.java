@@ -3,11 +3,17 @@ import java.util.Scanner;
 
 public class MainBook {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         ArrayList<Book> bookList = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Book List");
-        System.out.println("Submit a blank title when you're done with your list.");
+        Book book1 = new Book("Green Eggs and Ham", 72, 1960);
+        Book book2 = new Book("The Cat in the Hat", 61, 1957);
+        Book book3 = new Book("The Lorax", 72, 1971);
+
+        //adds books to BookList ArrayList
+        bookList.add(book1);
+        bookList.add(book2);
+        bookList.add(book3);
 
         while (true) {
             System.out.println("Enter a book title:");
