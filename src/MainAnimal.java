@@ -6,6 +6,15 @@ public class MainAnimal {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Animal> animals = new ArrayList<>();
 
+        //Create animal objects with constructors
+        Animal dog = new Animal("Rufus", true);
+        Animal wolf = new Animal("Fang");
+        Animal husky = new Animal(true);
+
+        animals.add(dog);
+        animals.add(wolf);
+        animals.add(husky);
+
         System.out.println("Animal Menu");
         System.out.println("Entering nothing for the animal name will stop the loop");
 

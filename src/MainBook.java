@@ -9,11 +9,19 @@ public class MainBook {
         Book book1 = new Book("Green Eggs and Ham", 72, 1960);
         Book book2 = new Book("The Cat in the Hat", 61, 1957);
         Book book3 = new Book("The Lorax", 72, 1971);
+        Book book4 = new Book("Charlotte's Web", 200);
+        Book book5 = new Book("Lord of the Flies");
+        Book book6 = new Book();
+
 
         //adds books to BookList ArrayList
         bookList.add(book1);
         bookList.add(book2);
         bookList.add(book3);
+        bookList.add(book4);
+        bookList.add(book5);
+        bookList.add(book6);
+
 
         while (true) {
             System.out.println("Enter a book title:");

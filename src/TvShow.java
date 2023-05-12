@@ -2,12 +2,29 @@ public class TvShow {
     private String name;
     private int episodes;
     private String genre;
-
+    //constructors
     public TvShow(String name, int episodes, String genre) {
         this.name = name;
         this.episodes = episodes;
         this.genre = genre;
     }
+    public TvShow(String name, String genre) {
+        this.name = name;
+        this.episodes = 24;
+        this.genre = genre;
+    }
+    public TvShow(int episodes, String genre) {
+        this.name = "Clifford";
+        this.episodes = episodes;
+        this.genre = genre;
+    }
+    public TvShow(String name) {
+        this.name = name;
+        this.episodes = 100;
+        this.genre = "animation";
+    }
+
+    //getters
     public String getName() {
         return this.name;
     }

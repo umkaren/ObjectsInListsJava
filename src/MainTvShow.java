@@ -6,6 +6,16 @@ public class MainTvShow {
         Scanner scanner = new Scanner(System.in);
         ArrayList<TvShow> showList = new ArrayList<>();
 
+        TvShow show1 = new TvShow("Breaking Bad", 62, "Drama");
+        TvShow show2 = new TvShow("CardCaptor Sakura", "animation");
+        TvShow show3 = new TvShow(66, "kids");
+        TvShow show4 = new TvShow("Steven Universe");
+
+        showList.add(show1);
+        showList.add(show2);
+        showList.add(show3);
+        showList.add(show4);
+
         while (true) {
             System.out.println("Name of the show:");
             String name = scanner.nextLine();
